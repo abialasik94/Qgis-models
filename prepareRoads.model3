@@ -1,0 +1,1438 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:buffer_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="bufferBuiltUpAreas1cm" name="component_description"/>
+      <Option type="double" value="193" name="component_pos_x"/>
+      <Option type="double" value="428" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:buffer_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="-0.01" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:dissolve_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="bufferTrafficLights" name="component_description"/>
+      <Option type="double" value="1219" name="component_pos_x"/>
+      <Option type="double" value="509" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:buffer_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:clip_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="BufferTrafficLights1cm" name="component_description"/>
+      <Option type="double" value="1122" name="component_pos_x"/>
+      <Option type="double" value="611" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:buffer_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="-0.01" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="fromToPoints2kmBuffers" name="component_description"/>
+      <Option type="double" value="1327" name="component_pos_x"/>
+      <Option type="double" value="240" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:buffer_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2000" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:clip_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedBuiltUpAreas" name="component_description"/>
+      <Option type="double" value="158" name="component_pos_x"/>
+      <Option type="double" value="253" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedMainRoads" name="component_description"/>
+      <Option type="double" value="730" name="component_pos_x"/>
+      <Option type="double" value="231" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedBuiltUpLines" name="component_description"/>
+      <Option type="double" value="446" name="component_pos_x"/>
+      <Option type="double" value="386" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:polygonstolines_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedTrafficLights" name="component_description"/>
+      <Option type="double" value="1538" name="component_pos_x"/>
+      <Option type="double" value="387" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedFromToPoints" name="component_description"/>
+      <Option type="double" value="1376" name="component_pos_x"/>
+      <Option type="double" value="174" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_5" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_6" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:clip_6">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:clip" name="alg_id"/>
+      <Option type="QString" value="clippedResidentialRoads" name="component_description"/>
+      <Option type="double" value="1171" name="component_pos_x"/>
+      <Option type="double" value="305" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:clip_6" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:dissolve_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:dissolve" name="alg_id"/>
+      <Option type="QString" value="AggregateBuiltUpAreas" name="component_description"/>
+      <Option type="double" value="168" name="component_pos_x"/>
+      <Option type="double" value="334" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:dissolve_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:clip_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
+      <Option type="QString" value="filterMainRoads" name="component_description"/>
+      <Option type="double" value="659" name="component_pos_x"/>
+      <Option type="double" value="68" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extractbyexpression_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="&quot;fclass&quot; IN ('motorway', 'motorway_link', 'trunk', 'trunk_link', 'primary', 'primary_link', 'secondary', 'secondary_link', 'tertiary', 'tertiary_link', 'unclassified')" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="drogiwgwojewodztw" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
+      <Option type="QString" value="filterTrafficSignals" name="component_description"/>
+      <Option type="double" value="1613" name="component_pos_x"/>
+      <Option type="double" value="189" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extractbyexpression_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="&quot;fclass&quot; = 'traffic_signals'" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="sygnalizacjasw" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
+      <Option type="QString" value="filterResidentialRoads" name="component_description"/>
+      <Option type="double" value="1043" name="component_pos_x"/>
+      <Option type="double" value="95" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extractbyexpression_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="&quot;fclass&quot; = 'residential'" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="drogiwgwojewodztw" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:fixgeometries_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:fixgeometries" name="alg_id"/>
+      <Option type="QString" value="repairGeometry" name="component_description"/>
+      <Option type="double" value="739" name="component_pos_x"/>
+      <Option type="double" value="1007" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:snapgeometries_1"/>
+      </Option>
+      <Option type="QString" value="native:fixgeometries_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="roadNetworkWithSpeed">
+          <Option type="QString" value="native:fixgeometries_1" name="child_id"/>
+          <Option type="QString" value="roadNetworkWithSpeed" name="component_description"/>
+          <Option type="double" value="939" name="component_pos_x"/>
+          <Option type="double" value="1052" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="roadNetworkWithSpeed" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:snapgeometries_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:mergevectorlayers_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:mergevectorlayers" name="alg_id"/>
+      <Option type="QString" value="MergeRoads" name="component_description"/>
+      <Option type="double" value="978" name="component_pos_x"/>
+      <Option type="double" value="385" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:mergevectorlayers_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAYERS">
+          <Option type="Map">
+            <Option type="QString" value="native:clip_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option type="QString" value="native:clip_6" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:polygonstolines_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:polygonstolines" name="alg_id"/>
+      <Option type="QString" value="lines_3mFromLights" name="component_description"/>
+      <Option type="double" value="1376" name="component_pos_x"/>
+      <Option type="double" value="595" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:polygonstolines_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:polygonstolines_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:polygonstolines" name="alg_id"/>
+      <Option type="QString" value="builtUpAreasToLines" name="component_description"/>
+      <Option type="double" value="342" name="component_pos_x"/>
+      <Option type="double" value="201" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:polygonstolines_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:reprojectlayer_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformTrafficLights" name="component_description"/>
+      <Option type="double" value="1578" name="component_pos_x"/>
+      <Option type="double" value="299" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:extractbyexpression_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ProjectCrs" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformMainRoads" name="component_description"/>
+      <Option type="double" value="699" name="component_pos_x"/>
+      <Option type="double" value="142" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:extractbyexpression_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QgsCoordinateReferenceSystem" name="static_value">
+              <spatialrefsys>
+                <wkt>PROJCRS["ETRS89 / Poland CS92",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Poland"],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+                <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>171</srsid>
+                <srid>2180</srid>
+                <authid>EPSG:2180</authid>
+                <description>ETRS89 / Poland CS92</description>
+                <projectionacronym>tmerc</projectionacronym>
+                <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+              </spatialrefsys>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformResidentialRoads" name="component_description"/>
+      <Option type="double" value="1050" name="component_pos_x"/>
+      <Option type="double" value="187" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:extractbyexpression_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ProjectCrs" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformBuiltUpAreas" name="component_description"/>
+      <Option type="double" value="163" name="component_pos_x"/>
+      <Option type="double" value="132" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="builtupareas" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ProjectCrs" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformProvince" name="component_description"/>
+      <Option type="double" value="570" name="component_pos_x"/>
+      <Option type="double" value="290" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_5" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="wojewdztwo" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ProjectCrs" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:reprojectlayer_6">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
+      <Option type="QString" value="transformFromToPoints" name="component_description"/>
+      <Option type="double" value="1403" name="component_pos_x"/>
+      <Option type="double" value="105" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:reprojectlayer_6" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="fromtopoints" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ProjectCrs" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:selectbylocation_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:selectbylocation" name="alg_id"/>
+      <Option type="QString" value="SelectRoadsInBuilt-Ups" name="component_description"/>
+      <Option type="double" value="399" name="component_pos_x"/>
+      <Option type="double" value="539" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:selectbylocation_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:splitwithlines_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INTERSECT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="0"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:selectbylocation_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:selectbylocation" name="alg_id"/>
+      <Option type="QString" value="SelectRoads3mNearLights" name="component_description"/>
+      <Option type="double" value="1102" name="component_pos_x"/>
+      <Option type="double" value="757" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:selectbylocation_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:splitwithlines_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INTERSECT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="0"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:splitwithlines_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:splitwithlines" name="alg_id"/>
+      <Option type="QString" value="divideRoadsByBuiltUps" name="component_description"/>
+      <Option type="double" value="677" name="component_pos_x"/>
+      <Option type="double" value="489" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:splitwithlines_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LINES">
+          <Option type="Map">
+            <Option type="QString" value="native:clip_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:splitwithlines_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:splitwithlines" name="alg_id"/>
+      <Option type="QString" value="roadsSpeedCutted" name="component_description"/>
+      <Option type="double" value="1364" name="component_pos_x"/>
+      <Option type="double" value="719" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:splitwithlines_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LINES">
+          <Option type="Map">
+            <Option type="QString" value="native:polygonstolines_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="IsRoadInBuiltUpArea" name="component_description"/>
+      <Option type="double" value="736" name="component_pos_x"/>
+      <Option type="double" value="590" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:selectbylocation_1"/>
+      </Option>
+      <Option type="QString" value="qgis:fieldcalculator_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="czyzabudow" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="If(is_selected(), 1 , 0)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:splitwithlines_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="roadsSpeedBy3variables" name="component_description"/>
+      <Option type="double" value="891" name="component_pos_x"/>
+      <Option type="double" value="662" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:fieldcalculator_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="maxspeed" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="CASE &#xd;&#xa;WHEN &quot;fclass&quot; IN ('motorway',  'motorway_link') AND  ((&quot;maxspeed_s&quot; > 116  ) OR (&quot;maxspeed_s&quot; = 0)) &#xd;&#xa;THEN 116&#xd;&#xa;WHEN &quot;fclass&quot; IN ('trunk', 'trunk_link') AND  ((&quot;maxspeed_s&quot; > 105  ) OR (&quot;maxspeed_s&quot; = 0))  &#xd;&#xa;THEN 105&#xd;&#xa;WHEN &quot;maxspeed_s&quot; > 90 AND &quot;fclass&quot; NOT IN ( 'motorway' , 'motorway_link' ,'trunk', 'trunk_link') &#xd;&#xa;THEN 90&#xd;&#xa;WHEN   &quot;fclass&quot; IN ('primary', 'primary_link') AND  ((&quot;maxspeed_s&quot; > 80  AND &quot;maxspeed_s&quot; &lt; 100) OR (&quot;maxspeed_s&quot; = 0)) AND  &quot;czyzabudow&quot;  = 0 &#xd;&#xa;THEN 80&#xd;&#xa;WHEN   &quot;fclass&quot; IN ('secondary',  'secondary_link' ) AND  ((&quot;maxspeed_s&quot; > 70  AND &quot;maxspeed_s&quot; &lt; 100) OR (&quot;maxspeed_s&quot; = 0)) AND  &quot;czyzabudow&quot;  = 0 &#xd;&#xa;THEN 70&#xd;&#xa;WHEN   &quot;fclass&quot; IN ('tertiary',  'tertiary_link') AND  ((&quot;maxspeed_s&quot; > 60  AND &quot;maxspeed_s&quot; &lt; 100) OR (&quot;maxspeed_s&quot; = 0)) AND  &quot;czyzabudow&quot;  = 0 &#xd;&#xa;THEN 60&#xd;&#xa;WHEN   &quot;fclass&quot; = 'unclassified' AND  ((&quot;maxspeed_s&quot; > 55  AND &quot;maxspeed_s&quot; &lt; 100) OR (&quot;maxspeed_s&quot; = 0)) AND  &quot;czyzabudow&quot;  = 0 &#xd;&#xa;THEN 55&#xd;&#xa;WHEN &quot;fclass&quot; IN ('primary_link', 'secondary_link',  'tertiary_link', 'primary' ) AND  &quot;czyzabudow&quot;  = 1&#xd;&#xa;THEN 50&#xd;&#xa;WHEN &quot;fclass&quot; IN ('secondary') AND  &quot;czyzabudow&quot;  = 1&#xd;&#xa;THEN 45&#xd;&#xa;WHEN &quot;fclass&quot; IN ('tertiary') AND  &quot;czyzabudow&quot;  = 1&#xd;&#xa;THEN 40&#xd;&#xa;WHEN &quot;fclass&quot; IN ('unclassified') AND  &quot;czyzabudow&quot;  = 1&#xd;&#xa;THEN 35&#xd;&#xa;WHEN &quot;fclass&quot; IN ('residential') AND  &quot;czyzabudow&quot;  = 0&#xd;&#xa;THEN 40&#xd;&#xa;WHEN &quot;fclass&quot; IN ('residential') AND  &quot;czyzabudow&quot;  = 1&#xd;&#xa;THEN 20&#xd;&#xa;ELSE  &quot;maxspeed_s&quot;&#xd;&#xa;END&#xd;&#xa;" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="isRoadNearTrafficLights" name="component_description"/>
+      <Option type="double" value="1340" name="component_pos_x"/>
+      <Option type="double" value="834" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:selectbylocation_2"/>
+      </Option>
+      <Option type="QString" value="qgis:fieldcalculator_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="czyswiatla" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="If(is_selected(), 1 , 0)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:splitwithlines_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="OSMmaxspeedCopy" name="component_description"/>
+      <Option type="double" value="972" name="component_pos_x"/>
+      <Option type="double" value="468" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:fieldcalculator_5" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="maxspeed_stare" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="&quot;maxspeed&quot;" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:mergevectorlayers_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:fieldcalculator_6">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:fieldcalculator" name="alg_id"/>
+      <Option type="QString" value="OverwriteMaxspeed" name="component_description"/>
+      <Option type="double" value="1017" name="component_pos_x"/>
+      <Option type="double" value="877" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:fieldcalculator_6" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD_LENGTH">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="10" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="maxspeed" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FORMULA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="If(is_selected(), 2.0 , &quot;maxspeed&quot;)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:selectbyattribute_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NEW_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:selectbyattribute_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:selectbyattribute" name="alg_id"/>
+      <Option type="QString" value="SelectRoadNearLights" name="component_description"/>
+      <Option type="double" value="1281" name="component_pos_x"/>
+      <Option type="double" value="920" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:selectbyattribute_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="czyswiatla" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPERATOR">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="VALUE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="1" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:snapgeometries_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:snapgeometries" name="alg_id"/>
+      <Option type="QString" value="SnapWhereCutted" name="component_description"/>
+      <Option type="double" value="770" name="component_pos_x"/>
+      <Option type="double" value="931" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:snapgeometries_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="BEHAVIOR">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_6" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="REFERENCE_LAYER">
+          <Option type="Map">
+            <Option type="QString" value="qgis:fieldcalculator_6" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TOLERANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="0.1" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" value="" name="model_group"/>
+  <Option type="QString" value="Predkosci" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="builtupareas">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="built_upAreas" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="builtupareas" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="drogiwgwojewodztw">
+      <Option type="List" name="data_types">
+        <Option type="int" value="1"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="OSMroadsByProvinces" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="drogiwgwojewodztw" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="fromtopoints">
+      <Option type="List" name="data_types">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="fromToPoints" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="fromtopoints" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="native:fixgeometries_1:roadNetworkWithSpeed">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="roadNetworkWithSpeed" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="native:fixgeometries_1:roadNetworkWithSpeed" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="sygnalizacjasw">
+      <Option type="List" name="data_types">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="OSMtraffic" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="sygnalizacjasw" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="wojewdztwo">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="provinces" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="wojewdztwo" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="builtupareas">
+      <Option type="QString" value="builtupareas" name="component_description"/>
+      <Option type="double" value="257" name="component_pos_x"/>
+      <Option type="double" value="57" name="component_pos_y"/>
+      <Option type="QString" value="builtupareas" name="name"/>
+    </Option>
+    <Option type="Map" name="drogiwgwojewodztw">
+      <Option type="QString" value="drogiwgwojewodztw" name="component_description"/>
+      <Option type="double" value="818" name="component_pos_x"/>
+      <Option type="double" value="25" name="component_pos_y"/>
+      <Option type="QString" value="drogiwgwojewodztw" name="name"/>
+    </Option>
+    <Option type="Map" name="fromtopoints">
+      <Option type="QString" value="fromtopoints" name="component_description"/>
+      <Option type="double" value="1427" name="component_pos_x"/>
+      <Option type="double" value="22" name="component_pos_y"/>
+      <Option type="QString" value="fromtopoints" name="name"/>
+    </Option>
+    <Option type="Map" name="sygnalizacjasw">
+      <Option type="QString" value="sygnalizacjasw" name="component_description"/>
+      <Option type="double" value="1664" name="component_pos_x"/>
+      <Option type="double" value="113" name="component_pos_y"/>
+      <Option type="QString" value="sygnalizacjasw" name="name"/>
+    </Option>
+    <Option type="Map" name="wojewdztwo">
+      <Option type="QString" value="wojewdztwo" name="component_description"/>
+      <Option type="double" value="477" name="component_pos_x"/>
+      <Option type="double" value="133" name="component_pos_y"/>
+      <Option type="QString" value="wojewdztwo" name="name"/>
+    </Option>
+  </Option>
+</Option>
